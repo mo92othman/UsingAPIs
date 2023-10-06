@@ -27,7 +27,7 @@ function dance(img) {
     img.src = DANCING_CAT_URL;
 
     setTimeout(() => {
-      img.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';  // Reset to walking cat image
+      img.src = 'http://www.anniemation.com/clip_art/images/cat-walk.gif';  
       resolve();
     }, DANCE_TIME_MS);
   });
